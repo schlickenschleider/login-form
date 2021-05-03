@@ -1,4 +1,4 @@
-<h1>Login Form</h1>
-  Transparent background
-  Submit Button Color Transition on hover
+<h2>Login Form</h2>
+  <li>Transparent background<li>
+  <li>Submit Button Color Transition on hover</li>
   HTML, CSS
