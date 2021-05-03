@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <form action="javascript:void(0)" class="login-form">
+        <h1>Login</h1>
+        <div class="form-field">
+            <i class="fas fa-user"></i>
+            <input type="text" name="username" id="username" class="form-field" pattern="^[a-zA-Z0-9_-]{1,16}$" placeholder=" " required>
+                <label for="username">Username</label>
+        </div>
+        <div class="form-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" id="password" class="form-field" required placeholder=" ">
+                <label for="password">Password</label>
+        </div>
+        <button class="btn" type="submit" value="Login">Login</button>
+        <a href="#">Forgotten Password?</a>
+    </form>
+</body>
+</html>
